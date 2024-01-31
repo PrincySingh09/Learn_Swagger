@@ -1,14 +1,7 @@
 package com.rest.swagger_assignment.entities;
-
-
 import jakarta.persistence.*;
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-
-
-
-
 
 @Entity
 @Table(name = "Patient")
@@ -83,11 +76,5 @@ public class Patient {
     public void setGender(String gender) {
         this.gender = gender;
     }
-
-   
-
-    //declare void constructor
-
-
 }
 
