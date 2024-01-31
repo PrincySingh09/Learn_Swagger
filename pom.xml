@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rest.swagger</groupId>
-	<artifactId>UserSwagger</artifactId>
+	<artifactId>SwaggerAssignment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>UserSwagger</name>
+	<name>SwaggerAssignment</name>
 	<description>rest api using spring</description>
 	<properties>
 		<java.version>17</java.version>
