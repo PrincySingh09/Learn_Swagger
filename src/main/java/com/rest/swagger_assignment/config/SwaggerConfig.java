@@ -20,7 +20,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.rest.userswag"))
+                .apis(RequestHandlerSelectors.basePackage("com.rest.swagger_assignment"))
                 .paths(PathSelectors.any())
                 .build()
                 .apiInfo(apiInfo());
@@ -29,7 +29,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Demo Project")
-                .description("API documentation for managing users")
+                .description("API documentation for managing patients")
                 .version("1.0")
                 .build();
     }
